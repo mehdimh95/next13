@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <ul>
         {links.map((link) => (
-          <li key={link.id}>
+          <li key={link.id} color="red">
             <Link href={link.url}>{link.name}</Link>
           </li>
         ))}

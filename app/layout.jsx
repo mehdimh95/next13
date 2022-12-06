@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/item3"> دانشجو 2 </Link>
+        <Link href="/item3"> تماس با ما </Link>
       </Typography>
       <Typography
         as="li"
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/item3"> دانشجو 1</Link>
+        <Link href="/item3"> سیستم پشتیبانی </Link>
       </Typography>
       <Typography
         as="li"
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/item2"> ورود </Link>
+        <Link href="/item3"> سایت آموزش </Link>
       </Typography>
       <Typography
         as="li"
@@ -53,7 +53,15 @@ export default function RootLayout({ children }) {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/item1">ثبت نام</Link>
+        <Link href="/item2"> آرشیو اخبار </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <Link href="/item1"> ورود</Link>
       </Typography>
     </ul>
   )
