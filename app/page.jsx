@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -9,7 +11,6 @@ export default function Home() {
 
   return (
     <div>
-      <h1>UNIU</h1>
       <ul>
         {links.map((link) => (
           <li key={link.id}>
