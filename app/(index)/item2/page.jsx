@@ -28,11 +28,14 @@ export default function item3() {
       {news.map((item) => (
         <div key={item.id} className="mt-14">
           <Card className="w-96 ">
-            <CardHeader color="blue" className="relative h-56">
+            <CardHeader
+              color="transparent"
+              className="relative flex h-56 justify-center"
+            >
               <img
                 src={item.image}
                 alt="img-blur-shadow"
-                className="h-full w-full"
+                className="mx-12 h-full w-full"
               />
             </CardHeader>
             <CardBody className="text-center">

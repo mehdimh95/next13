@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  /* .trans {
-    @apply delay-[2000ms] hover:line-clamp-none;
+@layer components {
+  .trans {
+    @apply transition duration-300 hover:delay-700 hover:line-clamp-none;
   }
-} */
-*/ html,
+}
+html,
 body {
   padding: 10px 5px;
   margin: 0;
